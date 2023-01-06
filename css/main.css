@@ -3639,6 +3639,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    
   }
   .discount-section .srv2 form input {
     padding: 15px;
@@ -3665,9 +3666,13 @@
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     background-color: rgba(0, 0, 0, 0.029);
-    padding: 10px;
+    padding: 15px;
     caret-color: blue;
-    
+    resize: none;
+    font-size: 20px;
+  }
+  .discount-section .srv2 form textarea::placeholder {
+    font-size: 16px;
   }
   
   
